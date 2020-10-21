@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/196bba3b65.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="respmenu">
+        <img class="navlogo" src="images/logo.svg" alt="logo">
+        <input type="checkbox" class="menuButton" id="menuButton">
+        <label class="menuIcon" for="menuButton"><span class="navIcon"></span></label>
+        <ul class="menu">
+            <li><a href="#episodios" >EPISODIOS</a></li>
+            <li><a href="#deDondeVenimos" >NOSOTROS</a></li>
+            <li><a href="#invitados" >ENTREVISTAS</a></li>
+            <li><a href="#temas" >TÓPICOS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="tittle">
+            <h1>Hello <span class="world">world</span> </h1>
+            <h1>pale blue dot<span class="dot">.</span></h1>
+        </div>
+        <div class="subtittle">
+            <h3 class="subtDesk">El portal de podcast que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días</h3><h3 class="subtMob">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días</h3>
+        </div>
+        <div class="buttonContainer"><button onclick="window.open('https://rockcontent.com/es/blog/podcasts-de-tecnologia/');" class="myButton" type="button" >CONOCÉ MÁS</button></div>
+    </header>
+    <main>
+        <section class="col-12 skewSectionEp" id="episodios">
+            <div class="skewContainerEp">
+                <h2 class="tittleEpisodes" >Episodios</h2> 
+                <div class="containerSpotify">
+                    <iframe class="box" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                    <iframe class="box" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                    <iframe class="box" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                    <iframe class="box" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="" id="deDondeVenimos">
+            <div class="containerAboutUs">
+                <img class="phone" src="images/phone.png" alt="phone">
+                <div>
+                    <h2 class="boxTittle">De dónde venimos</h2>
+                    <h3 class="boxParagraph">Our posturings, our imagined self-importance, the delusion that we have some priviledge position in the Universe, are challenged by this point of pale light.<br><br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselve </h3>
+                </div>
+            </div>
+        </section>
+        <section class="col-12" id="invitados">
+            <h2 class="tittleGuest">Invitadas/os estelares</h2>
+            <div class="flexPhotos">
+                <img class="photos" src="images/grace-hopper.png" alt="grace-hopper">
+                <img class="photos" src="images/Katie-Bouman.png" alt="Katie-Bouman">
+                <img class="photos" src="images/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+                <img class="photos" src="images/An_E.R.A.Univac_1103_computer_in_the_1950s.png" alt="An E.R.A.Univac 1103 computer in the 1950s">
+                <img class="photos" src="images/Computer_operators_with_an_Eniac_the_worlds_first_programmable_general-purpose_computer.png" alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer">
+                <img class="photos" src="images/susan-kare.png" alt="susan-kare">
+            </div>
+        </section>
+        <section class="col-12" id="temas">
+            <h2 class="tittleTopics" >Algunos de nuestros temas</h2>
+            <div class="containerTopics col-12" >
+                <img class="imagesTopics imagesTopics1" src="images/icon1.svg" alt="Trabajo remoto">
+                <img class="imagesTopics imagesTopics2" src="images/icon2.svg" alt="Repensando la programación">
+                <img class="imagesTopics imagesTopics3" src="images/icon3.svg" alt="Bases del código">
+                <img class="imagesTopics imagesTopics4" src="images/icon4.svg" alt="Seguridad informática">
+                <h4 class="textTopics textTopics1" >Trabajo remoto</h4>
+                <h4 class="textTopics textTopics2" >Repensando la programación</h4>
+                <h4 class="textTopics textTopics3" >Bases del código</h4>
+                <h4 class="textTopics textTopics4" >Seguridad informática</h4>
+            </div>
+        </section>
+        <section class="col-12 SectionNews" id="news">
+            <div class="flexNews ContainerNews">
+                <h2 class="tittleNews fixWidth">¿Querés las últimas novedades?</h2>
+                <div class="buttonContainerNews"><button onclick="window.open('https://open.spotify.com/genre/business_technology_v2_podcast-page');" class="myButton buttonNews" type="button" >ESCUCHÁ LOS EPISODIOS</button></div>
+            </div>
+        </section>
+    </main>
+    <footer class="col-12">
+        <div class="flexFooter col-12">
+            <h6 class="copyright">© 2019─ Hello blue pale dot</h6>
+            <div class="fabs">
+                <a href="https://www.spotify.com/co/" target='_blank'><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/" target='_blank'><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target='_blank'><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target='_blank'><i class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org/#/login" target='_blank'><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
