@@ -1,2 +1,1 @@
-#Podcast Channel 
-	podcast_channel_juandavidyps.github.io
+Podcast Channel URL:https://juandavidyps.github.io/podcast_channel_juandavidyps.github.io/
