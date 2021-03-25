@@ -1,6 +1,6 @@
 # Podcast Channel 
 
-First project of web development full stack course.
+First project for Full Stack Web Development course.
 
 Podcast webpage using HTML and CSS
 
