@@ -1,4 +1,4 @@
-# Podcast Channel 
+# Podcast Channel Landing Page
 
 First project for Full Stack Web Development course.
 
